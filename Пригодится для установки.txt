@@ -1,0 +1,11 @@
+Установка библиотек:
+
+pip install -r req.txt
+
+Настройка постбеков. Пример: 
+
+https://api.telegram.org/bot{токенбота}/sendMessage?chat_id={айдиКаналаСотчетами}&text={sub1}
+
+Как должно получиться:
+
+https://api.telegram.org/bot7863497788:AAFPfCxXU4Gp_8DLM39oskZuSAJjpZtsEj8/sendMessage?chat_id=-1002337123995&text={sub1}
